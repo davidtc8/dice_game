@@ -21,16 +21,22 @@ function randomNumber1() {
     var randomNumber1 = randomNumberGenerator()
     if (randomNumber1 === 1) {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     } else if (randomNumber1 === 2) {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     } else if (randomNumber1 === 3) {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     } else if (randomNumber1 === 4) {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     } else if (randomNumber1 === 5) {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     } else {
         getElementHTML(randomNumber1, 1)
+        return randomNumber1
     }
 }
 
@@ -39,19 +45,36 @@ function randomNumber2() {
     var randomNumber2 = randomNumberGenerator();
     if (randomNumber2 === 1) {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     } else if (randomNumber2 === 2) {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     } else if (randomNumber2 === 3) {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     } else if (randomNumber2 === 4) {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     } else if (randomNumber2 === 5) {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     } else {
         getElementHTML(randomNumber2, 2);
+        return randomNumber2
     }
 }
 
 //Calling the functions
-randomNumber1();
-randomNumber2();
+player1 = randomNumber1();
+player2= randomNumber2();
+
+//Writing on the dashboard who won
+if(player1 > player2) {
+    document.querySelector("h1").innerHTML = "Player 1 wins! 🚩"
+}
+else if (player2 > player1) {
+    document.querySelector("h1").innerHTML = "🚩 Player 2 wins!"
+}
+else{
+    document.querySelector("h1").innerHTML = "It's a draw 🙃"
+}
