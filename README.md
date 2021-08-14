@@ -1,4 +1,4 @@
-# dice_game
+# Dice game
 Web page where you can roll the dices every time you reload the page! Every time that you want to roll the dice, just reload the page.
 
 ## Website Link
@@ -19,3 +19,7 @@ Web page where you can roll the dices every time you reload the page! Every time
 
 ## Code Sneakpeak 
 [![Dice Game](http://img.youtube.com/vi/woNrKbIrhwI/0.jpg)](http://www.youtube.com/watch?v=woNrKbIrhwI)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=woNrKbIrhwI
+" target="_blank"><img src="http://img.youtube.com/vi/woNrKbIrhwI/0.jpg" 
+alt="Dice game" width="240" height="180" border="10" /></a>
